@@ -15,21 +15,6 @@ class ResultsTableViewController: UITableViewController {
             tableView.reloadData()
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     // MARK: - Table view data source
 
@@ -44,8 +29,8 @@ class ResultsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "calculationCell", for: indexPath) as! ResultsTableViewCell
-        cell.calculationLabel.text = calcualtionsArray[indexPath.row]
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "calculationCell")
+        cell?.textLabel?.text = calcualtionsArray[indexPath.row]
+        return cell!
     }
 }

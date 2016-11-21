@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C40631F81DE3830000A8A696 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40631F71DE3830000A8A696 /* ResultsTableViewCell.swift */; };
 		C4ED51BD1DDCDD6000C4F26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED51BC1DDCDD6000C4F26F /* AppDelegate.swift */; };
 		C4ED51BF1DDCDD6000C4F26F /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED51BE1DDCDD6000C4F26F /* CalculatorViewController.swift */; };
 		C4ED51C21DDCDD6000C4F26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED51C01DDCDD6000C4F26F /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C40631F71DE3830000A8A696 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsTableViewCell.swift; path = ../ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		C4ED51B91DDCDD6000C4F26F /* rememberingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rememberingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED51BC1DDCDD6000C4F26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4ED51BE1DDCDD6000C4F26F /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				C4ED51BC1DDCDD6000C4F26F /* AppDelegate.swift */,
 				C4ED51BE1DDCDD6000C4F26F /* CalculatorViewController.swift */,
 				C4ED51CE1DDCE27C00C4F26F /* ResultsTableViewController.swift */,
-				C40631F71DE3830000A8A696 /* ResultsTableViewCell.swift */,
 				C4ED51C01DDCDD6000C4F26F /* Main.storyboard */,
 				C4ED51C31DDCDD6000C4F26F /* Assets.xcassets */,
 				C4ED51C51DDCDD6000C4F26F /* LaunchScreen.storyboard */,
@@ -145,7 +142,6 @@
 			files = (
 				C4ED51CF1DDCE27C00C4F26F /* ResultsTableViewController.swift in Sources */,
 				C4ED51BF1DDCDD6000C4F26F /* CalculatorViewController.swift in Sources */,
-				C40631F81DE3830000A8A696 /* ResultsTableViewCell.swift in Sources */,
 				C4ED51BD1DDCDD6000C4F26F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

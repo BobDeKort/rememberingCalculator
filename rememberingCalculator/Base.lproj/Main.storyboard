@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="firstBaseline" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="iGV-T4-BcY">
-                                <rect key="frame" x="97.5" y="219" width="180" height="200"/>
+                                <rect key="frame" x="98" y="219" width="180" height="200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ku9-1V-1WW">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="150"/>
@@ -261,25 +261,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="calculationCell" rowHeight="59" id="PUd-Vg-Kht" customClass="ResultsTableViewCell" customModule="rememberingCalculator" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="calculationCell" rowHeight="59" id="PUd-Vg-Kht">
                                 <rect key="frame" x="0.0" y="28" width="375" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PUd-Vg-Kht" id="TAC-5P-NNf">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="58.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49w-e5-zxb">
-                                            <rect key="frame" x="8" y="14" width="359" height="37"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="calculationLabel" destination="49w-e5-zxb" id="3R5-OR-LbO"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
